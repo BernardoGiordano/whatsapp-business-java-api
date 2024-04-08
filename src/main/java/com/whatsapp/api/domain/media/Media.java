@@ -9,7 +9,7 @@ public record Media(
 
         @JsonProperty("sha256") String sha256,
 
-        @JsonProperty("mime_type") FileType mimeType,
+        @JsonProperty("mime_type") String mimeType,
 
         @JsonProperty("messaging_product") String messagingProduct,
 
